@@ -1,10 +1,17 @@
-import React from "react"; 
+import React, { Component } from 'react';
 
-function Header(){
+class Header extends Component() {
+    constructor() {
+        super();
+    }
 
-    return (
-        <div className = "header">
-            <button className = "button">Button</button>
-        </div>
-    )
+    render() {
+        return (
+            <div className="header">
+                <button className="button">Button</button>
+            </div>
+        )
+    }
 }
+
+export default Header; 
